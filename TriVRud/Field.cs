@@ -6,7 +6,7 @@ namespace TriVRud
 		public const int Shirina_2 = 10;
         public const int Visota_1 = 10;
 		public static Cell[,] Cells;
-		public Point Cursor = new Point(1,1);
+		public Point Cursor = new Point(0,0);
 
         public Field()
 		{
@@ -14,7 +14,7 @@ namespace TriVRud
 			RandomGenerationCells();
 		}
 
-		public void Print(bool bol)
+        public void Print(bool bol)
 		{
 			for(int y = 0; y < Visota_1;y++)
 			{

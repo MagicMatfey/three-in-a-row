@@ -8,24 +8,45 @@ class Program
         do
         {
             _Field.Print(true);
-            _Napravlenie = Console.ReadKey().Key;
-            Console.Clear();
-            switch(_Napravlenie)
-            {
-                case ConsoleKey.W:
-                    _Field.Cursor.Y -= 1;
-                    break;
-                case ConsoleKey.S:
-                    _Field.Cursor.Y += 1;
-                    break;
-                case ConsoleKey.D:
-                    _Field.Cursor.X += 1;
-                    break;
-                case ConsoleKey.A:
-                    _Field.Cursor.X -= 1;
-                    break;
-            }
+            HandleInput();
         } while (true);
+    }
+
+    private static void HandleInput()
+    {
+        var key = Console.ReadKey().Key;
+        Console.Clear();
+
+        switch (key)
+        {
+            case ConsoleKey.W:
+                if (_Field.Cursor.Y - 1 >= 0)
+                {
+                    _Field.Cursor.Y--;
+                }
+                break;
+
+            case ConsoleKey.S:
+                if (_Field.Cursor.Y + 1 < Field.Visota_1)
+                {
+                    _Field.Cursor.Y++;
+                }
+                break;
+
+            case ConsoleKey.A:
+                if (_Field.Cursor.X - 1 >= 0)
+                {
+                    _Field.Cursor.X--;
+                }
+                break;
+
+            case ConsoleKey.D:
+                if (_Field.Cursor.X + 1 < Field.Shirina_2)
+                {
+                    _Field.Cursor.X++;
+                }
+                break;
+        }
     }
 }
 
