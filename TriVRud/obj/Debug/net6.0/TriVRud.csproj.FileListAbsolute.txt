@@ -13,3 +13,18 @@
 /Users/magicman/Projects/TriVRud/TriVRud/obj/Debug/net6.0/TriVRud.pdb
 /Users/magicman/Projects/TriVRud/TriVRud/obj/Debug/net6.0/TriVRud.genruntimeconfig.cache
 /Users/magicman/Projects/TriVRud/TriVRud/obj/Debug/net6.0/ref/TriVRud.dll
+/Users/magicman/Desktop/Что-то важное/Прогромирование/three-in-a-row/TriVRud/bin/Debug/net6.0/TriVRud
+/Users/magicman/Desktop/Что-то важное/Прогромирование/three-in-a-row/TriVRud/bin/Debug/net6.0/TriVRud.deps.json
+/Users/magicman/Desktop/Что-то важное/Прогромирование/three-in-a-row/TriVRud/bin/Debug/net6.0/TriVRud.runtimeconfig.json
+/Users/magicman/Desktop/Что-то важное/Прогромирование/three-in-a-row/TriVRud/bin/Debug/net6.0/TriVRud.dll
+/Users/magicman/Desktop/Что-то важное/Прогромирование/three-in-a-row/TriVRud/bin/Debug/net6.0/TriVRud.pdb
+/Users/magicman/Desktop/Что-то важное/Прогромирование/three-in-a-row/TriVRud/obj/Debug/net6.0/TriVRud.csproj.AssemblyReference.cache
+/Users/magicman/Desktop/Что-то важное/Прогромирование/three-in-a-row/TriVRud/obj/Debug/net6.0/TriVRud.GeneratedMSBuildEditorConfig.editorconfig
+/Users/magicman/Desktop/Что-то важное/Прогромирование/three-in-a-row/TriVRud/obj/Debug/net6.0/TriVRud.AssemblyInfoInputs.cache
+/Users/magicman/Desktop/Что-то важное/Прогромирование/three-in-a-row/TriVRud/obj/Debug/net6.0/TriVRud.AssemblyInfo.cs
+/Users/magicman/Desktop/Что-то важное/Прогромирование/three-in-a-row/TriVRud/obj/Debug/net6.0/TriVRud.csproj.CoreCompileInputs.cache
+/Users/magicman/Desktop/Что-то важное/Прогромирование/three-in-a-row/TriVRud/obj/Debug/net6.0/TriVRud.dll
+/Users/magicman/Desktop/Что-то важное/Прогромирование/three-in-a-row/TriVRud/obj/Debug/net6.0/refint/TriVRud.dll
+/Users/magicman/Desktop/Что-то важное/Прогромирование/three-in-a-row/TriVRud/obj/Debug/net6.0/TriVRud.pdb
+/Users/magicman/Desktop/Что-то важное/Прогромирование/three-in-a-row/TriVRud/obj/Debug/net6.0/TriVRud.genruntimeconfig.cache
+/Users/magicman/Desktop/Что-то важное/Прогромирование/three-in-a-row/TriVRud/obj/Debug/net6.0/ref/TriVRud.dll
