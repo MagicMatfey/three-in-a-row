@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{218ACB3F-E343-4168-BEF7-6D7F2B89D082}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TriVRud/Field.cs">
+    <Files>
+      <File FileName="TriVRud/Cell.cs" Line="1" Column="1" />
+      <File FileName="TriVRud/Field.cs" Line="22" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TriVRud">
+            <Node name="TriVRud">
+              <Node name="Field.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.TriVRud PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

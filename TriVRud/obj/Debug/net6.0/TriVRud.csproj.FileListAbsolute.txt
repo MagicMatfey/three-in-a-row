@@ -1,0 +1,15 @@
+/Users/magicman/Projects/TriVRud/TriVRud/bin/Debug/net6.0/TriVRud
+/Users/magicman/Projects/TriVRud/TriVRud/bin/Debug/net6.0/TriVRud.deps.json
+/Users/magicman/Projects/TriVRud/TriVRud/bin/Debug/net6.0/TriVRud.runtimeconfig.json
+/Users/magicman/Projects/TriVRud/TriVRud/bin/Debug/net6.0/TriVRud.dll
+/Users/magicman/Projects/TriVRud/TriVRud/bin/Debug/net6.0/TriVRud.pdb
+/Users/magicman/Projects/TriVRud/TriVRud/obj/Debug/net6.0/TriVRud.csproj.AssemblyReference.cache
+/Users/magicman/Projects/TriVRud/TriVRud/obj/Debug/net6.0/TriVRud.GeneratedMSBuildEditorConfig.editorconfig
+/Users/magicman/Projects/TriVRud/TriVRud/obj/Debug/net6.0/TriVRud.AssemblyInfoInputs.cache
+/Users/magicman/Projects/TriVRud/TriVRud/obj/Debug/net6.0/TriVRud.AssemblyInfo.cs
+/Users/magicman/Projects/TriVRud/TriVRud/obj/Debug/net6.0/TriVRud.csproj.CoreCompileInputs.cache
+/Users/magicman/Projects/TriVRud/TriVRud/obj/Debug/net6.0/TriVRud.dll
+/Users/magicman/Projects/TriVRud/TriVRud/obj/Debug/net6.0/refint/TriVRud.dll
+/Users/magicman/Projects/TriVRud/TriVRud/obj/Debug/net6.0/TriVRud.pdb
+/Users/magicman/Projects/TriVRud/TriVRud/obj/Debug/net6.0/TriVRud.genruntimeconfig.cache
+/Users/magicman/Projects/TriVRud/TriVRud/obj/Debug/net6.0/ref/TriVRud.dll
