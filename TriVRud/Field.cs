@@ -6,7 +6,8 @@ namespace TriVRud
 		public const int Shirina_2 = 10;
         public const int Visota_1 = 10;
 		public static Cell[,] Cells { get; set; }
-		public Point Cursor = new Point(0, 0);
+		public static Point Cursor = new Point(0, 0);
+        public static Point SelectedCursor;
 
         public Field()
 		{
@@ -16,14 +17,16 @@ namespace TriVRud
 
         public void Print()
 		{
-			for(int y = 0; y < Visota_1;y++)
+            Console.Clear();
+            for (int y = 0; y < Visota_1;y++)
 			{
 				for (int x = 0; x < Shirina_2; x++)
 				{
-					bool ISCursor = (y == Cursor.Y && x == Cursor.X);
-                    Cells[y, x].Print(ISCursor);
+                    bool IsCursor = (y == Cursor.Y && x == Cursor.X);
+                    bool IsSelected = (SelectedCursor != null && SelectedCursor.X == x&& SelectedCursor.Y == y);
+                    Cells[y, x].Print(IsCursor, IsSelected);
                     Console.Write("  ");
-				}
+                }
                 Console.WriteLine();
                 for (int x = 0; x < Shirina_2; x++) {Console.Write(" ");}
                 Console.WriteLine();
@@ -44,6 +47,18 @@ namespace TriVRud
                 }
             }
         }
-	}
+
+		public static void SelectOrSwap()
+        {
+            if(SelectedCursor == null)
+            {
+                SelectedCursor = new Point(Cursor.Y, Cursor.X);
+            }
+            else
+            {
+
+            }
+        }
+    }
 }
 

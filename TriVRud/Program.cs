@@ -15,36 +15,39 @@ class Program
     private static void HandleInput()
     {
         var key = Console.ReadKey().Key;
-        Console.Clear();
 
         switch (key)
         {
             case ConsoleKey.W:
-                if (_Field.Cursor.Y - 1 >= 0)
+                if (Field.Cursor.Y - 1 >= 0)
                 {
-                    _Field.Cursor.Y--;
+                    Field.Cursor.Y--;
                 }
                 break;
 
             case ConsoleKey.S:
-                if (_Field.Cursor.Y + 1 < Field.Visota_1)
+                if (Field.Cursor.Y + 1 < Field.Visota_1)
                 {
-                    _Field.Cursor.Y++;
+                    Field.Cursor.Y++;
                 }
                 break;
 
             case ConsoleKey.A:
-                if (_Field.Cursor.X - 1 >= 0)
+                if (Field.Cursor.X - 1 >= 0)
                 {
-                    _Field.Cursor.X--;
+                    Field.Cursor.X--;
                 }
                 break;
 
             case ConsoleKey.D:
-                if (_Field.Cursor.X + 1 < Field.Shirina_2)
+                if (Field.Cursor.X + 1 < Field.Shirina_2)
                 {
-                    _Field.Cursor.X++;
+                    Field.Cursor.X++;
                 }
+                break;
+
+            case ConsoleKey.Spacebar:
+                Field.SelectOrSwap();
                 break;
         }
     }
