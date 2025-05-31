@@ -20,28 +20,28 @@ class Program
         switch (key)
         {
             case ConsoleKey.W:
-                if (_Field.Cursor.Y - 1 >= 0)
+                if (_Field.Cursor.Y -- >= 0)
                 {
                     _Field.Cursor.Y--;
                 }
                 break;
 
             case ConsoleKey.S:
-                if (_Field.Cursor.Y + 1 < Field.Visota_1)
+                if (_Field.Cursor.Y ++ < Field.Visota_1)
                 {
                     _Field.Cursor.Y++;
                 }
                 break;
 
             case ConsoleKey.A:
-                if (_Field.Cursor.X - 1 >= 0)
+                if (_Field.Cursor.X -- >= 0)
                 {
                     _Field.Cursor.X--;
                 }
                 break;
 
             case ConsoleKey.D:
-                if (_Field.Cursor.X + 1 < Field.Shirina_2)
+                if (_Field.Cursor.X ++ < Field.Shirina_2)
                 {
                     _Field.Cursor.X++;
                 }

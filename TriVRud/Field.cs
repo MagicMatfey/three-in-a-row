@@ -5,8 +5,8 @@ namespace TriVRud
 	{
 		public const int Shirina_2 = 10;
         public const int Visota_1 = 10;
-		public static Cell[,] Cells;
-		public Point Cursor = new Point(0,0);
+		public static Cell[,] Cells { get; set; }
+		public Point Cursor = new Point(0, 0);
 
         public Field()
 		{
