@@ -19,35 +19,35 @@ class Program
         switch (key)
         {
             case ConsoleKey.W:
-                if (Field.Cursor.Y - 1 >= 0)
+                if (_Field.Cursor.Y > 0)
                 {
-                    Field.Cursor.Y--;
+                    _Field.Cursor.Y--;
                 }
                 break;
 
             case ConsoleKey.S:
-                if (Field.Cursor.Y + 1 < Field.Visota_1)
+                if (_Field.Cursor.Y + 1 < Field.Visota_1)
                 {
-                    Field.Cursor.Y++;
+                    _Field.Cursor.Y++;
                 }
                 break;
 
             case ConsoleKey.A:
-                if (Field.Cursor.X - 1 >= 0)
+                if (_Field.Cursor.X > 0)
                 {
-                    Field.Cursor.X--;
+                    _Field.Cursor.X--;
                 }
                 break;
 
             case ConsoleKey.D:
-                if (Field.Cursor.X + 1 < Field.Shirina_2)
+                if (_Field.Cursor.X + 1 < Field.Shirina_2)
                 {
-                    Field.Cursor.X++;
+                    _Field.Cursor.X++;
                 }
                 break;
 
             case ConsoleKey.Spacebar:
-                Field.SelectOrSwap();
+                _Field.SelectOrSwap();
                 break;
         }
     }

@@ -5,9 +5,9 @@ namespace TriVRud
 	{
 		public const int Shirina_2 = 10;
         public const int Visota_1 = 10;
-		public static Cell[,] Cells { get; set; }
-		public static Point Cursor = new Point(0, 0);
-        public static Point SelectedCursor;
+		public Cell[,] Cells { get; set; }
+		public Point Cursor = new Point(0, 0);
+        public Point SelectedCursor;
 
         public Field()
 		{
@@ -48,7 +48,7 @@ namespace TriVRud
             }
         }
 
-		public static void SelectOrSwap()
+		public void SelectOrSwap()
         {
             if(SelectedCursor == null)
             {
@@ -56,8 +56,23 @@ namespace TriVRud
             }
             else
             {
+                int y = Math.Abs(Cursor.Y - SelectedCursor.Y);
+                int x = Math.Abs(Cursor.X - SelectedCursor.X);
 
+                if ((x == 1 && y == 0) || (x == 0 && y == 1))
+                {
+                    SwapCells(Cursor,SelectedCursor);
+                    SelectedCursor = null;
+                    Print();
+                }
             }
+        }
+
+        private void SwapCells(Point cursor, Point selected)
+        {
+            Cell temp = Cells[cursor.Y, cursor.X];
+            Cells[cursor.Y, cursor.X] = Cells[selected.Y, selected.X];
+            Cells[selected.Y, selected.X] = temp;
         }
     }
 }
