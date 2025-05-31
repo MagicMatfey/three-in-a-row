@@ -21,7 +21,7 @@ namespace TriVRud
 				case CellColors.Yellow:
                     Console.BackgroundColor = ConsoleColor.Yellow;
                     break;
-				case CellColors.Mugnetto:
+				case CellColors.Magento:
                     Console.BackgroundColor = ConsoleColor.Magenta;
                     break;
 				case CellColors.Blue:
