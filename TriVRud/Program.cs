@@ -7,7 +7,7 @@ class Program
     {
         do
         {
-            _Field.Print(true);
+            _Field.Print();
             HandleInput();
         } while (true);
     }

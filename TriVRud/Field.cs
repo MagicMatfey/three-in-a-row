@@ -14,24 +14,18 @@ namespace TriVRud
 			RandomGenerationCells();
 		}
 
-        public void Print(bool bol)
+        public void Print()
 		{
 			for(int y = 0; y < Visota_1;y++)
 			{
 				for (int x = 0; x < Shirina_2; x++)
 				{
-					if(bol == true && y == Cursor.Y && x == Cursor.X)
-					{
-                        Console.ForegroundColor = ConsoleColor.Black;
-                        Cells[Cursor.Y,Cursor.X].Print(true);
-                        Console.Write(" ");
-                    }
-					else
-					{
-                        Cells[y, x].Print(false);
-                        Console.Write(" ");
-                    }
+					bool ISCursor = (y == Cursor.Y && x == Cursor.X);
+                    Cells[y, x].Print(ISCursor);
+                    Console.Write("  ");
 				}
+                Console.WriteLine();
+                for (int x = 0; x < Shirina_2; x++) {Console.Write(" ");}
                 Console.WriteLine();
             }
 		}
@@ -44,7 +38,9 @@ namespace TriVRud
             {
                 for (int x = 0; x < Shirina_2; x++)
                 {
-					Cells[y, x] = new Cell((CellColors)random.Next(Enum.GetValues(typeof(CellColors)).Length));
+					CellColors color = (CellColors)random.Next(Enum.GetValues(typeof(CellColors)).Length);
+
+                    Cells[y, x] = new Cell(color);
                 }
             }
         }

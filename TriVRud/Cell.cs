@@ -11,7 +11,7 @@ namespace TriVRud
 		}
 
 
-        public void Print(bool bl)
+        public void Print(bool IsCursor)
 		{
 			switch(Color)
 			{
@@ -31,8 +31,9 @@ namespace TriVRud
                     Console.BackgroundColor = ConsoleColor.Green;
 					break;
             }
-            if (bl == true)
+            if (IsCursor == true)
             {
+                Console.ForegroundColor = ConsoleColor.Black;
                 Console.Write("[]");
             }
 			else
